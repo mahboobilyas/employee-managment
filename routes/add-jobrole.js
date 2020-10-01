@@ -75,7 +75,7 @@ router.post("/", checkloginuser, async function (req, res, next) {
   res.render("add_jobROle", {
     title: "Employee managment system",
     loginUser: jobroledetail,
-    success: "job Role inserted successfully",
+    success: "job Role added successfully",
   });
 });
 module.exports = router;
